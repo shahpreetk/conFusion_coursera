@@ -29,7 +29,7 @@ body {
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8 !important; }
+  background-color: #512DA8; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -50,16 +50,17 @@ body {
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  z-index: 1; }
 
-.modal-content .modal-header {
-  background-color: #512DA8;
+.modalcolors .modal-header {
+  background: #512DA8;
   color: floralwhite; }
-  .modal-content .modal-header .close {
+  .modalcolors .modal-header button {
     color: floralwhite; }
 
-.modal-content .modal-body {
-  background-color: #D1C4E9; }
+.modalcolors .modal-body {
+  background: #D1C4E9; }
 
-.modal-content .modal-footer {
-  background-color: #D1C4E9; }
+.modalcolors .modal-footer {
+  background: #9575CD; }

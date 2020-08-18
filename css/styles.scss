@@ -44,7 +44,7 @@ body{
 }
 
 .navbar-dark {
-     background-color: $background-dark;
+     background-color: $background-dark !important;
 }
 
 .tab-content {
@@ -72,5 +72,23 @@ body{
     right:0px;
     position: absolute;
     bottom: 0px;
-    z-index: 1;
+}
+
+.modal-content{
+    .modal-header{
+        background-color: $background-dark;
+        color: floralwhite;
+
+        .close{
+            color: floralwhite;
+        }
+    }
+
+    .modal-body{
+        background-color: $background-pale;
+    }
+
+    .modal-footer{
+        background-color: $background-pale;
+    }
 }
